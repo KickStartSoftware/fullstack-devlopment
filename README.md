@@ -2,14 +2,22 @@
 
 ![](/.git_assets/logo.png "Logo")
 
-In this coursework we are tasked with creating an application for the smooth and efficient
-operation of a business. We will work on the project as a Scrum team and therefore need to 
-adopt both design methods (user stories, use cases) and project management methods (Agile, Kanban). 
-We will also need to become familiar with the tools of a typical software development team 
-(Visual Studio, Git, Docker) and some of the difficult human and technical issues around 
-collaborating on and continuous improvement of online applications. Fundamentally, we aim to 
-develop a CRUD application. A CRUD application is effectively a front-end to a database, 
-providing a method to create, read, update, and delete data from a web site to a database on a server.
+# Inrtrodcution
+The Kick Start Software project aims to provide users with a one-stop destination for downloading multiple software programs and utilities. The project will feature a frontend, backend, and database, creating a comprehensive technology stack that will improve user experience and streamline the process of downloading software.
+
+# The problem
+Currently, users often have to waste time downloading multiple software programs and visiting multiple websites to obtain the utilities they need. This can be a time-consuming and frustrating process, especially for users who need to download a large number of programs.
+
+# The solution
+The Kick Start Software project aims to solve this problem by providing users with a single website where they can download multiple software programs with just a few clicks. The website will also feature a personal vault where users can save their frequently used software for easy access, as well as a community analytics section that will provide valuable data on the most popular software among users.
+
+# Key Features
+* Single website for downloading multiple software programs
+* Personal vault for saving frequently used software
+* Community analytics section for data on popular software
+
+# Prototype:
+The prototype for the Kick Start Software project will be limited in scope, and may only include demo data. However, this should not be considered a limitation, as the prototype will provide a valuable proof of concept for the project.
 
 # Group Members
 * [@Nero-DevOps](https://github.com/Nero-DevOps) (Owner)
