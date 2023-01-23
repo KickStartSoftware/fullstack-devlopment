@@ -24,7 +24,7 @@ The prototype for the Kick Start Software project will be limited in scope, and 
 )
 
 
-![](Logo/InformationAchitecture.jpg "Group Work")
+![](Logo/Information Achitecture.jpg "Group Work")
 
 
 # Conclusion
