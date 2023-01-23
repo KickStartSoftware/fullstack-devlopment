@@ -24,9 +24,8 @@ The prototype for the Kick Start Software project will be limited in scope, and 
 )
 
 
-![](.git_assets/repo_overview.png "Group Work")
+![](Logo/Information Achitecture.jpg "Group Work")
 
 
-# Wiki
-The GitHub Wiki has more information regarding the technicalities of the project. It's used for group members
-to remember important information while developing the project.
+# Conclusion
+The Kick Start Software project is a valuable solution to the problem of downloading multiple software programs and utilities. The project's technology stack, personal vault, and community analytics features will improve user experience and provide valuable data on the most popular software among users. The prototype will provide a proof of concept for the project, and its success will pave the way for further development.
