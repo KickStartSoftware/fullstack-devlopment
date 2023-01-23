@@ -1,6 +1,6 @@
 # Fullstack-Devlopment
 
-![](/Logo/githubhome.png "Logo")
+![](/Logo/Transparent-image.png "Logo")
 
 # Inrtrodcution
 The Kick Start Software project aims to provide users with a one-stop destination for downloading multiple software programs and utilities. The project will feature a frontend, backend, and database, creating a comprehensive technology stack that will improve user experience and streamline the process of downloading software.
