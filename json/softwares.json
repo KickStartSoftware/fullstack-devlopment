@@ -1,0 +1,457 @@
+[
+  {
+    "name": "Opera mini",
+    "category": "63d86dafff42a9b532f82fcb",
+    "win32url": "/packages/opera-mini/OperaSetup.exe",
+    "win64url": "/packages/opera-mini/OperaSetup.exe",
+    "iconUrl": "/packages/opera.svg"
+  },
+  {
+    "name": "Chrome",
+    "category": "63d86dafff42a9b532f82fcb",
+    "win32url": "/packages/chrome/ChromeSetup.exe",
+    "win64url": "/packages/chrome/ChromeStandaloneSetup.exe",
+    "iconUrl": "/packages/chrome.svg"
+  },
+  {
+    "name": "Firefox",
+    "category": "63d86dafff42a9b532f82fcb",
+    "win32url": "/packages/mozilla-firefox/Firefox Setup 109.0.exe",
+    "win64url": "/packages/mozilla-firefox/Firefox Installer.exe",
+    "iconUrl": "/packages/firefox.png"
+  },
+  {
+    "name": "Edge",
+    "category": "63d86dafff42a9b532f82fcb",
+    "win32url": "/packages/edge/MicrosoftEdgeSetup.exe",
+    "win64url": "/packages/edge/MicrosoftEdgeSetup.exe",
+    "iconUrl": "/packages/edge.svg"
+  },
+  {
+    "name": "Zoom",
+    "category": "63d86dafff42a9b532f82fca",
+    "win32url": "/packages/zoom/ZoomInstallerFull (1).exe",
+    "win64url": "/packages/zoom/ZoomInstallerFull.exe",
+    "iconUrl": "/packages/zoom.svg"
+  },
+  {
+    "name": "Whatsapp",
+    "category": "63d86dafff42a9b532f82fca",
+    "win32url": "/packages/whatsapp/WhatSender.exe",
+    "win64url": "/packages/whatsapp/WhatSender.exe",
+    "iconUrl": "/packages/whatsapp.svg"
+  },
+  {
+    "name": "Teams",
+    "category": "63d86dafff42a9b532f82fca",
+    "win32url": "/packages/teams/MSTeamsSetup_c_l_.exe",
+    "win64url": "/packages/teams/MSTeamsSetup_c_l_.exe",
+    "iconUrl": "/packages/teams.svg"
+  },
+  {
+    "name": "Skype",
+    "category": "63d86dafff42a9b532f82fca",
+    "win32url": "/packages/skype/Skype-8.92.0.401.exe",
+    "win64url": "/packages/skype/Skype-8.92.0.401.exe",
+    "iconUrl": "/packages/skype.svg"
+  },
+  {
+    "name": "Discord",
+    "category": "63d86dafff42a9b532f82fca",
+    "win32url": "/packages/discord/DiscordSetup.exe",
+    "win64url": "/packages/discord/DiscordSetup.exe",
+    "iconUrl": "/packages/discord.svg"
+  },
+  {
+    "name": "Audacity",
+    "category": "63d86dafff42a9b532f82fc9",
+    "win32url": "/packages/audacity/audacity-win-3.2.3-x32.exe",
+    "win64url": "/packages/audacity/audacity-win-3.2.3-x64.exe",
+    "iconUrl": "/packages/audacity.svg"
+  },
+  {
+    "name": "LD Player",
+    "category": "63d86dafff42a9b532f82fc9",
+    "win32url": "/packages/ld-player/LDPlayer4.exe",
+    "win64url": "/packages/ld-player/LDPlayer4.exe",
+    "iconUrl": "/packages/ld.svg"
+  },
+  {
+    "name": "Itunes",
+    "category": "63d86dafff42a9b532f82fc9",
+    "win32url": "/packages/itunes/iTunesSetup.exe",
+    "win64url": "/packages/itunes/iTunesSetup.exe",
+    "iconUrl": "/packages/itunes.svg"
+  },
+  {
+    "name": "Photo Scape",
+    "category": "63d86dafff42a9b532f82fc9",
+    "win32url": "/packages/photo-scape/PhotoScapeSetup_V3-7.exe",
+    "win64url": "/packages/photo-scape/PhotoScapeSetup_V3-7.exe",
+    "iconUrl": "/packages/gallery.png"
+  },
+  {
+    "name": "VLC Player",
+    "category": "63d86dafff42a9b532f82fc9",
+    "win32url": "/packages/vlc/vlc-3.0.17.4-win32.exe",
+    "win64url": "/packages/vlc/vlc-3.0.17.4-win32.exe",
+    "iconUrl": "/packages/vlc.svg"
+  },
+  {
+    "name": "Virtual DJ",
+    "category": "63d86dafff42a9b532f82fc9",
+    "win32url": "/packages/virtual-dj/install_virtualdj_2021_b6732_pc.msi",
+    "win64url": "/packages/virtual-dj/install_virtualdj_2021_b6732_pc.msi",
+    "iconUrl": "/packages/dj.png"
+  },
+  {
+    "name": "Twitch",
+    "category": "63d86dafff42a9b532f82fc9",
+    "win32url": "/packages/twitch/TwitchSetup.exe",
+    "win64url": "/packages/twitch/TwitchSetup.exe",
+    "iconUrl": "/packages/twitch.svg"
+  },
+  {
+    "name": ".Net Runtimes",
+    "category": "63d86dafff42a9b532f82fc8",
+    "win32url": "/packages/net/ndp48-web.exe",
+    "win64url": "/packages/net/ndp48-web.exe",
+    "iconUrl": "/packages/net.png"
+  },
+  {
+    "name": " .NET 4.8",
+    "category": "63d86dafff42a9b532f82fc8",
+    "win32url": "/packages/dot-net/dotnet-sdk-5.0.408-win-x64.exe",
+    "win64url": "/packages/dot-net/dotnet-sdk-5.0.408-win-x64.exe",
+    "iconUrl": "/packages/net-48.png"
+  },
+  {
+    "name": "Java Adapter",
+    "category": "63d86dafff42a9b532f82fc8",
+    "win32url": "/packages/open-jdk/OpenJDK17U-jdk_x64_windows_hotspot_17.0.6_10.msi",
+    "win64url": "/packages/open-jdk/OpenJDK17U-jdk_x64_windows_hotspot_17.0.6_10.msi",
+    "iconUrl": "/packages/jdk.svg"
+  },
+  {
+    "name": "Avast",
+    "category": "63d86dafff42a9b532f82fc1",
+    "win32url": "/packages/avast/avast-free-antivirus-22-10.exe",
+    "win64url": "/packages/avast/avast-free-antivirus-22-10.exe",
+    "iconUrl": "/packages/avast.svg"
+  },
+  {
+    "name": "Avg Antivirus",
+    "category": "63d86dafff42a9b532f82fc1",
+    "win32url": "/packages/avg/avg_antivirus_free_setup.exe",
+    "win64url": "/packages/avg/avg_antivirus_free_setup.exe",
+    "iconUrl": "/packages/avg.svg"
+  },
+  {
+    "name": "Super Antivirus",
+    "category": "63d86dafff42a9b532f82fc1",
+    "win32url": "/packages/super-antivirus/SUPERAntiSpyware.exe",
+    "win64url": "/packages/super-antivirus/SUPERAntiSpyware.exe",
+    "iconUrl": "/packages/super.svg"
+  },
+  {
+    "name": "Esset Antivirus",
+    "category": "63d86dafff42a9b532f82fc1",
+    "win32url": "/packages/esset/eset_internet_security_live_installer.exe",
+    "win64url": "/packages/esset/eset_internet_security_live_installer.exe",
+    "iconUrl": "/packages/esset.svg"
+  },
+  {
+    "name": "MBS Antivirus",
+    "category": "63d86dafff42a9b532f82fc1",
+    "win32url": "/packages/mbs/MBSetup.exe",
+    "win64url": "/packages/mbs/MBSetup.exe",
+    "iconUrl": "/packages/mbs.svg"
+  },
+  {
+    "name": "Open Office",
+    "category": "63d86dafff42a9b532f82fc7",
+    "win32url": "/packages/open-office/Apache_OpenOffice_4.1.13_Win_x86_install_en-US.exe",
+    "win64url": "/packages/open-office/Apache_OpenOffice_4.1.13_Win_x86_install_en-US.exe",
+    "iconUrl": "/packages/office.svg"
+  },
+  {
+    "name": "Epub Writer",
+    "category": "63d86dafff42a9b532f82fc7",
+    "win32url": "/packages/epub/epubfilereader_setup.exe",
+    "win64url": "/packages/epub/epubfilereader_setup.exe",
+    "iconUrl": "/packages/epub.png"
+  },
+  {
+    "name": "Cute Writer",
+    "category": "63d86dafff42a9b532f82fc7",
+    "win32url": "/packages/cute-writer/CuteWriter.exe",
+    "win64url": "/packages/cute-writer/CuteWriter.exe",
+    "iconUrl": "/packages/cute.png"
+  },
+  {
+    "name": "Libre Writer",
+    "category": "63d86dafff42a9b532f82fc7",
+    "win32url": "/packages/libre/LibreOffice_7.4.4_Win_x86.msi",
+    "win64url": "/packages/libre/LibreOffice_7.4.4_Win_x64.msi",
+    "iconUrl": "/packages/libre.svg"
+  },
+  {
+    "name": "Foxit Writer",
+    "category": "63d86dafff42a9b532f82fc7",
+    "win32url": "/packages/foxit/FoxitPDFReader121_enu_Setup_Prom.exe",
+    "win64url": "/packages/foxit/FoxitPDFReader121_enu_Setup_Prom.exe",
+    "iconUrl": "/packages/foxit.svg"
+  },
+  {
+    "name": "Blender",
+    "category": "63d86dafff42a9b532f82fc6",
+    "win32url": "/packages/blender/blender-3.4.1-windows-x64.msi",
+    "win64url": "/packages/blender/blender-3.4.1-windows-x64.msi",
+    "iconUrl": "/packages/blender.svg"
+  },
+  {
+    "name": "Faststone",
+    "category": "63d86dafff42a9b532f82fc6",
+    "win32url": "/packages/fast-stone/FSViewerSetup77.exe",
+    "win64url": "/packages/fast-stone/FSViewerSetup77.exe",
+    "iconUrl": "/packages/faststone.png"
+  },
+  {
+    "name": "Xru view",
+    "category": "63d86dafff42a9b532f82fc6",
+    "win32url": "/packages/xru-view/XnView-win-full.exe",
+    "win64url": "/packages/xru-view/XnView-win-full.exe",
+    "iconUrl": "/packages/xruview.png"
+  },
+  {
+    "name": "GMIP",
+    "category": "63d86dafff42a9b532f82fc6",
+    "win32url": "/packages/gmip/gimp-2.10.32-setup-1.exe",
+    "win64url": "/packages/gmip/gimp-2.10.32-setup-1.exe",
+    "iconUrl": "/packages/gmip.svg"
+  },
+  {
+    "name": "InfraView",
+    "category": "63d86dafff42a9b532f82fc6",
+    "win32url": "/packages/infra-view/iview462_setup.exe",
+    "win64url": "/packages/infra-view/iview462_x64_setup.exe",
+    "iconUrl": "/packages/infraview.png"
+  },
+  {
+    "name": "Inkscape",
+    "category": "63d86dafff42a9b532f82fc6",
+    "win32url": "/packages/inkscape/inkscape-0.92.3-x86.exe",
+    "win64url": "/packages/inkscape/inkscape-0.92.3-x64.exe",
+    "iconUrl": "/packages/inkscape.svg"
+  },
+  {
+    "name": "Krita",
+    "category": "63d86dafff42a9b532f82fc6",
+    "win32url": "/packages/krita/krita-x64-5.1.5-setup.exe",
+    "win64url": "/packages/krita/krita-x64-5.1.5-setup.exe",
+    "iconUrl": "/packages/krita.svg"
+  },
+  {
+    "name": "Paint.NET",
+    "category": "63d86dafff42a9b532f82fc6",
+    "win32url": "/packages/paint/paint.net.4.3.12.install.x86.exe",
+    "win64url": "/packages/paint/paint.net.5.0.1.install.x64.exe",
+    "iconUrl": "/packages/paint.net.svg"
+  },
+  {
+    "name": "Greenshot",
+    "category": "63d86dafff42a9b532f82fc6",
+    "win32url": "/packages/greenshot/Greenshot-INSTALLER-1.3.205-UNSTABLE.exe",
+    "win64url": "/packages/greenshot/Greenshot-INSTALLER-1.3.205-UNSTABLE.exe",
+    "iconUrl": "/packages/greenshot.png"
+  },
+  {
+    "name": "ShareX",
+    "category": "63d86dafff42a9b532f82fc6",
+    "win32url": "/packages/sharex/ShareX-15.0.0-setup.exe",
+    "win64url": "/packages/sharex/ShareX-15.0.0-setup.exe",
+    "iconUrl": "/packages/sharex.svg"
+  },
+  {
+    "name": "qBittorrent",
+    "category": "63d86dafff42a9b532f82fc3",
+    "win32url": "/packages/qbit/qbittorrent_4.5.0_qt6_x64_setup.exe",
+    "win64url": "/packages/qbit/qbittorrent_4.5.0_qt6_x64_setup.exe",
+    "iconUrl": "/packages/qBittorrent.png"
+  },
+  {
+    "name": "Google Drive",
+    "category": "63d86dafff42a9b532f82fc5",
+    "win32url": "/packages/google-drive/GoogleDriveSetup.exe",
+    "win64url": "/packages/google-drive/GoogleDriveSetup.exe",
+    "iconUrl": "/packages/google-drive.svg"
+  },
+  {
+    "name": "One Drive",
+    "category": "63d86dafff42a9b532f82fc5",
+    "win32url": "/packages/one-drive/OneDriveSetup.exe",
+    "win64url": "/packages/one-drive/OneDriveSetup.exe",
+    "iconUrl": "/packages/one-drive.png"
+  },
+  {
+    "name": "Dropbox",
+    "category": "63d86dafff42a9b532f82fc5",
+    "win32url": "/packages/dropbox/DropboxInstaller.exe",
+    "win64url": "/packages/dropbox/DropboxInstaller.exe",
+    "iconUrl": "/packages/dropbox.svg"
+  },
+  {
+    "name": "Good Sync",
+    "category": "63d86dafff42a9b532f82fc5",
+    "win32url": "/packages/good-sync/GoodSync-v11-Setup.exe",
+    "win64url": "/packages/good-sync/GoodSync-v11-Setup.exe",
+    "iconUrl": "/packages/good-sync.png"
+  },
+  {
+    "name": "7zip",
+    "category": "63d86dafff42a9b532f82fc4",
+    "win32url": "/packages/7-zip/7z2201.exe",
+    "win64url": "/packages/7-zip/7z2201-x64.exe",
+    "iconUrl": "/packages/7zip.png"
+  },
+  {
+    "name": "Peazip",
+    "category": "63d86dafff42a9b532f82fc4",
+    "win32url": "/packages/peazip/peazip-9.0.0.WINDOWS.exe",
+    "win64url": "/packages/peazip/peazip-9.0.0.WIN64.exe",
+    "iconUrl": "/packages/peazip.png"
+  },
+  {
+    "name": "Winrar",
+    "category": "63d86dafff42a9b532f82fc4",
+    "win32url": "/packages/winrar/Winrar.msi",
+    "win64url": "/packages/winrar/winrar-x64-620.exe",
+    "iconUrl": "/packages/winrar.svg"
+  },
+  {
+    "name": "Codeachi",
+    "category": "63d86dafff42a9b532f82fc2",
+    "win32url": "/packages/codeachi/codeachi-library-setup.exe",
+    "win64url": "/packages/codeachi/codeachi-library-setup.exe",
+    "iconUrl": "/packages/codeachi.png"
+  },
+  {
+    "name": "Droid kit",
+    "category": "63d86dafff42a9b532f82fc2",
+    "win32url": "/packages/droid/droidkit-en-setup.exe",
+    "win64url": "/packages/droid/droidkit-en-setup.exe",
+    "iconUrl": "/packages/droid-kit.png"
+  },
+  {
+    "name": "File Converter",
+    "category": "63d86dafff42a9b532f82fc2",
+    "win32url": "/packages/file-converter/FileConverter-1.2.3-x64-setup_1.msi",
+    "win64url": "/packages/file-converter/FileConverter-1.2.3-x64-setup_1.msi",
+    "iconUrl": "/packages/file-converter.png"
+  },
+  {
+    "name": "Free Alarm",
+    "category": "63d86dafff42a9b532f82fc2",
+    "win32url": "/packages/alarm/FreeAlarmClockSetup.exe",
+    "win64url": "/packages/alarm/FreeAlarmClockSetup.exe",
+    "iconUrl": "/packages/free-alarm.png"
+  },
+  {
+    "name": "Ocam",
+    "category": "63d86dafff42a9b532f82fc2",
+    "win32url": "/packages/ocam/oCam_v520.0.exe",
+    "win64url": "/packages/ocam/oCam_v520.0.exe",
+    "iconUrl": "/packages/ocam.svg"
+  },
+  {
+    "name": "Rc Setup",
+    "category": "63d86dafff42a9b532f82fc2",
+    "win32url": "/packages/rc-setup/rcsetup153.exe",
+    "win64url": "/packages/rc-setup/rcsetup153.exe",
+    "iconUrl": "/packages/rc-setup.png"
+  },
+  {
+    "name": "Setup Light",
+    "category": "63d86dafff42a9b532f82fc2",
+    "win32url": "/packages/setup-light/setup-lightshot.exe",
+    "win64url": "/packages/setup-light/setup-lightshot.exe",
+    "iconUrl": "/packages/setup-light.png"
+  },
+  {
+    "name": "Samsung Driver",
+    "category": "63d86dafff42a9b532f82fc2",
+    "win32url": "/packages/samsung-driver/SAMSUNG_USB_Driver_for_Mobile_Phones.exe",
+    "win64url": "/packages/samsung-driver/SAMSUNG_USB_Driver_for_Mobile_Phones.exe",
+    "iconUrl": "/packages/samsung-driver.png"
+  },
+  {
+    "name": "Vs code",
+    "category": "63d86dafff42a9b532f82fc0",
+    "win32url": "/packages/vs-code/VSCodeUserSetup-x64-1.74.3.exe",
+    "win64url": "/packages/vs-code/VSCodeUserSetup-x64-1.74.3.exe",
+    "iconUrl": "/packages/vs-code.svg"
+  },
+  {
+    "name": "Vs code Insider",
+    "category": "63d86dafff42a9b532f82fc0",
+    "win32url": "/packages/vs-code/VSCodeUserSetup-x64-1.75.0-insider.exe",
+    "win64url": "/packages/vs-code/VSCodeUserSetup-x64-1.75.0-insider.exe",
+    "iconUrl": "/packages/vs-code-insider.svg"
+  },
+  {
+    "name": "Atom",
+    "category": "63d86dafff42a9b532f82fc0",
+    "win32url": "/packages/atom/AtomSetup.exe",
+    "win64url": "/packages/atom/AtomSetup.exe",
+    "iconUrl": "/packages/atom.png"
+  },
+  {
+    "name": "Sublime Text",
+    "category": "63d86dafff42a9b532f82fc0",
+    "win32url": "/packages/sublime/Sublime Text Build 3211 Setup.exe",
+    "win64url": "/packages/sublime/Sublime Text Build 3211 x64 Setup.exe",
+    "iconUrl": "/packages/sublime-text.svg"
+  },
+  {
+    "name": "Eclipse",
+    "category": "63d86dafff42a9b532f82fc0",
+    "win32url": "/packages/eclipse/eclipse-inst-jre-win64.exe",
+    "win64url": "/packages/eclipse/eclipse-inst-jre-win64.exe",
+    "iconUrl": "/packages/eclipse.png"
+  },
+  {
+    "name": "FileZilla",
+    "category": "63d86dafff42a9b532f82fc0",
+    "win32url": "/packages/fileZila/FileZilla_3.62.2_win32-setup.exe",
+    "win64url": "/packages/fileZila/FileZilla_3.62.2_win64_sponsored2-setup.exe",
+    "iconUrl": "/packages/filezila.svg"
+  },
+  {
+    "name": "WinSCP",
+    "category": "63d86dafff42a9b532f82fc0",
+    "win32url": "/packages/win-scp/WinSCP-5.21.7-Setup.exe",
+    "win64url": "/packages/win-scp/WinSCP-5.21.7-Setup.exe",
+    "iconUrl": "/packages/win-scp.svg"
+  },
+  {
+    "name": "Winmerge",
+    "category": "63d86dafff42a9b532f82fc0",
+    "win32url": "/packages/win-merge/WinMerge-2.16.24-ARM64-Setup.exe",
+    "win64url": "/packages/win-merge/WinMerge-2.16.24-x64-Setup.exe",
+    "iconUrl": "/packages/win-merge.png"
+  },
+  {
+    "name": "Evenote",
+    "category": "63d86dafff42a9b532f82fcc",
+    "win32url": "/packages/evenote/Evernote-10.52.8-win-ddl-ga-3911-111c1a8a34-setup.exe",
+    "win64url": "/packages/evenote/Evernote-10.52.8-win-ddl-ga-3911-111c1a8a34-setup.exe",
+    "iconUrl": "/packages/evenote.svg"
+  },
+  {
+    "name": "Stream",
+    "category": "63d86dafff42a9b532f82fcc",
+    "win32url": "/packages/stream/SteamSetup.exe",
+    "win64url": "/packages/stream/SteamSetup.exe",
+    "iconUrl": "/packages/stream.png"
+  }
+]
