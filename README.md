@@ -1,6 +1,6 @@
 # Fullstack-Devlopment
 
-![](/Logo/HighRes.jpg "Logo")
+![](/.git_assets/HighRes.jpg "Logo")
 
 # Introduction
 The Kick Start Software project aims to provide users with a one-stop destination for downloading multiple software programs and utilities. The project will feature a frontend, backend, and database, creating a comprehensive technology stack that will improve user experience and streamline the process of downloading software.
@@ -43,7 +43,7 @@ run 'yarn start-app-prod'
 )
 
 
-![](Logo/InformationAchitecture.jpg "Chart")
+![](.git_assets/InformationAchitecture.jpg "Chart")
 
 
 # Conclusion
