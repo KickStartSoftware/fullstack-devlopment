@@ -1,0 +1,157 @@
+[{
+  "_id": {
+    "$oid": "63d86dafff42a9b532f82fc1"
+  },
+  "name": "Security",
+  "createdAt": {
+    "$date": "2023-01-31T01:23:59.836Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-31T01:23:59.836Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d86dafff42a9b532f82fc0"
+  },
+  "name": "Developer Tools",
+  "createdAt": {
+    "$date": "2023-01-31T01:23:59.836Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-31T01:23:59.836Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d86dafff42a9b532f82fc4"
+  },
+  "name": "Compression",
+  "createdAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d86dafff42a9b532f82fc5"
+  },
+  "name": "Online Storage",
+  "createdAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d86dafff42a9b532f82fc7"
+  },
+  "name": "Documents",
+  "createdAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d86dafff42a9b532f82fc6"
+  },
+  "name": "Imaging",
+  "createdAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d86dafff42a9b532f82fc8"
+  },
+  "name": "Runtimes",
+  "createdAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d86dafff42a9b532f82fc9"
+  },
+  "name": "Media",
+  "createdAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d86dafff42a9b532f82fc3"
+  },
+  "name": "File Sharing",
+  "createdAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d86dafff42a9b532f82fc2"
+  },
+  "name": "Utilities",
+  "createdAt": {
+    "$date": "2023-01-31T01:23:59.836Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-31T01:23:59.836Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d86dafff42a9b532f82fcc"
+  },
+  "name": "Other",
+  "createdAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d86dafff42a9b532f82fca"
+  },
+  "name": "Messaging",
+  "createdAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d86dafff42a9b532f82fcb"
+  },
+  "name": "Web Browsers",
+  "createdAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-31T01:23:59.837Z"
+  },
+  "__v": 0
+}]
