@@ -13,30 +13,28 @@ const Core = () => {
           The idea at it's core
         </p>
         <p className="pt-6 lg:px-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-          nostrum corporis dicta quos eius eaque libero ea laborum illo
-          eligendi!
+        This platform simplifies software downloads in bulk and offers a user friendly interface, vault dashboard, analytics, and a web-based solution!
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 pt-7 gap-6">
           {/* Card1 */}
           <div className="flex items-center  justify-center">
             <div className=" rounded-[0.5rem]  w-20 h-12 bg-[#041d33]" />
-            <p className="ml-4 font-bold text-[20px]">Lorem Ipsum</p>
+            <p className="ml-4 font-bold text-[20px]">Analytics</p>
           </div>
           {/* Card2 */}
           <div className="flex items-center gap-4  justify-center ">
             <div className=" rounded-[0.5rem]  w-20 h-12 order-2 bg-[#041d33]" />
-            <p className=" font-bold text-[20px]  sm:order-2">Lorem Ipsum</p>
+            <p className=" font-bold text-[20px]  sm:order-2">User Vault</p>
           </div>
           {/* Card3 */}
           <div className="flex   items-center  justify-center">
             <div className=" rounded-[0.5rem]  w-20 h-12   bg-[#041d33]" />
-            <p className="ml-4 font-bold text-[20px]">Lorem Ipsum</p>
+            <p className="ml-4 font-bold text-[20px]">Time Saving</p>
           </div>
           {/* Card4 */}
           <div className="flex items-center gap-4    justify-center ">
             <div className=" rounded-[0.5rem]  w-20 h-12 order-2 bg-[#041d33]" />
-            <p className=" font-bold text-[20px]  sm:order-2">Lorem Ipsum</p>
+            <p className=" font-bold text-[20px]  sm:order-2">Web Based</p>
           </div>
         </div>
       </div>
