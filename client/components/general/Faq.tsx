@@ -6,33 +6,33 @@ import Image from 'next/image';
 const Faq = () => {
   const [faq, setFaq] = useState([
     {
-      question: 'Amen lol dolor sit amet?  ',
+      question: 'What is Kick Start Software?  ',
       answer:
-        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis ad laborum perferendis!',
+        'Kick Start Software is a one-stop solution for downloading multiple software programs with just a click of a button. It saves users time and effort by allowing them to select and download their desired software utilities from a single platform.',
       open: false,
     },
     {
-      question: 'Rtrem ipsum dolor sit amet?  ',
+      question: 'How does the personal vault work?  ',
       answer:
-        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis ad laborum perferendis!',
+        'The personal vault is a user-specific dashboard where you can save your preferred software selections. This allows you to quickly access and download your favorite software when setting up a new environment or device.',
       open: false,
     },
     {
-      question: 'Orem ipsusm dolor sit adsamet!  ',
+      question: 'Is Kick Start Software free to use?  ',
       answer:
-        'OpLorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis ad laborum perferendis!',
+        'Yes, Kick Start Software is free to use. However, some software programs available on the platform may require a license or payment to their respective developers.',
       open: false,
     },
     {
-      question: 'Lorem dsipsum dolor sit amdsaet?  ',
+      question: 'How do I create an account?  ',
       answer:
-        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis ad laborum perferendis!',
+        'To create an account, simply click on the "Sign Up" button on the homepage and follow the registration process. You will need to provide a valid email address and create a secure password.',
       open: false,
     },
     {
-      question: 'Wdsaorem ipsum dolor sit amet?  ',
+      question: 'What technologies are used in the development of Kick Start Software?  ',
       answer:
-        'Lordsaem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis ad labordsaum perferendis!',
+        'Kick Start Software is built using a full technology stack, including React JS, Tailwind.css, jQuery, JavaScript, NodeJS, and MongoDB.',
       open: false,
     },
   ]);
