@@ -58,7 +58,7 @@ const Navbar: React.ComponentType<INavProps> = ({ hideLinks = false }) => {
   );
 
   return (
-    <div className=" flex items-center   justify-between py-4 px-4 md:px-8 ">
+    <div className=" flex items-center justify-between py-4 px-4 md:px-8 ">
       {/* Left Side */}
       <StyledLink href="/">
         <Image src={logo} alt="" className="w-[8rem]" />

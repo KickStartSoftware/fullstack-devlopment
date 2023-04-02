@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import React from 'react';
-import laptop from '../../assets/laptop3.png';
+import Image from "next/image";
+import React from "react";
+import laptop from "../../assets/laptop3.png";
 
 const Hero = () => {
   return (
@@ -14,19 +14,18 @@ const Hero = () => {
             multiple software.
           </h1>
           <div className="flex items-center text-white text-[20px] lg:text-[25px] gap-4 pt-10">
-            <div className=" bg-[#08eaea] px-6 py-1.5 font-semibold rounded-[0.5rem]">
+            <div className="bg-[#08eaea] px-6 py-1.5 font-semibold rounded-[0.5rem] hover:bg-[#26d3d3] transform duration-300 ease-in-out">
               <button>Sign In</button>
             </div>
-            <div className=" bg-[#08eaea] px-4 py-1.5 font-semibold rounded-[0.5rem]">
+            <div className="bg-[#08eaea] px-4 py-1.5 font-semibold rounded-[0.5rem] hover:bg-[#26d3d3] transform duration-300 ease-in-out">
               <button>Try Now</button>
             </div>
           </div>
         </div>
-
         {/* Right Side */}
         <div className="sm:mt-6">
           <Image
-            alt=''
+            alt=""
             src={laptop}
             className="w-full max-w-[20rem] md:max-w-[25rem] lg:max-w-[27rem]  xl:max-w-[30rem] 2xl:max-w-[40rem]   px-4"
           />
