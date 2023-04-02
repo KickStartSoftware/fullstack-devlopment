@@ -11,23 +11,23 @@ const Repository = () => {
           <p>Repository</p>
         </div>
         <div className="pt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6  sm:gap-12  ">
-          <div className="text-center  ">
+          <div className="text-center">
             <p className="text-[45px]">{baseAnalytics.packages}</p>
-            <p className="text-[20px] -mt-3">Softwares</p>
+            <p className="text-[20px]">Softwares</p>
           </div>
           <div className="text-center  ">
             <p className="text-[45px]">{baseAnalytics.downloads}</p>
-            <p className="text-[20px] -mt-3">Downloads</p>
+            <p className="text-[20px]">Downloads</p>
           </div>
 
           <div className="text-center  ">
             <p className="text-[45px]">{baseAnalytics.collections}</p>
-            <p className="text-[20px] -mt-3">Saved Vault</p>
+            <p className="text-[20px]">Saved Vault</p>
           </div>
 
           <div className="text-center  ">
             <p className="text-[45px]">{baseAnalytics.users}</p>
-            <p className="text-[20px] -mt-3">Users</p>
+            <p className="text-[20px]">Users</p>
           </div>
         </div>
       </div>
