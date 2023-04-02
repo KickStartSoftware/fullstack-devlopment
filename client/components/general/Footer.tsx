@@ -1,24 +1,29 @@
-import React from 'react';
-import curvedline from '../../assets/bg2.png';
-import curvedline2 from '../../assets/bg10.png';
-import Image from 'next/image';
+import React from "react";
+import curvedline from "../../assets/bg2.png";
+import curvedline2 from "../../assets/bg10.png";
+import Image from "next/image";
+import { StyledLink } from "../base";
+import logo from "../../assets/kickstart.png";
 
 const Footer = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-[#040d18] text-white">
       {/* CurverLineMobile*/}
-      <div className="sm:hidden bg-white/100 rotate-180">
+      <div className="sm:hidden bg-[#040d18]/100 rotate-180">
         <Image alt="" src={curvedline} className="w-full h-20" />
       </div>
       {/* CurverLineWeb */}
-      <div className="hidden sm:flex bg-white/100 rotate-180">
+      <div className="hidden sm:flex bg-[#040d18]/100 rotate-180">
         <Image alt="" src={curvedline2} className="w-full h-20" />
       </div>
-      <div className="bg-white text-center pb-10 md:flex sm:pr-12 flex justify-center md:max-w-[85vw] mx-auto">
+      <div className="bg-[#040d18] text-center pb-10 md:flex sm:pr-12 flex justify-center md:max-w-[85vw] mx-auto pt-10">
         <div className="w-full">
-          <p className="text-[26px] font-bold text-center pt-8 sm:text-start sm:px-12 ">
+          <StyledLink href="/">
+            <Image src={logo} alt="" className="w-[8rem]" />
+          </StyledLink>
+          {/* <p className="text-[26px] font-bold text-center pt-8 sm:text-start sm:px-12 ">
             LOGO
-          </p>
+          </p> */}
           <p className="text-center sm:text-start px-12 sm:pr-6 pt-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
             fugit mollitia? Et quis iste ipsum!
