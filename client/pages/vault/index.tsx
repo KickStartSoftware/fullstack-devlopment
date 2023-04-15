@@ -70,7 +70,7 @@ const PersonalVault: AuthPage = () => {
                 value={name}
                 onChange={e => setName(e.target.value)}
                 placeholder="Give your collection a name"
-                className="flex-1 block h-[2.5rem] px-2 outline-none border-none w-full bg-white rounded-lg mb-5"
+                className="flex-1 block h-[2.5rem] px-2 outline-none border-none w-full bg-white rounded-lg mb-5 text-black"
               />
               <Select
                 isMulti
@@ -121,7 +121,7 @@ const PersonalVault: AuthPage = () => {
             )}
 
             {collections.length > 0 && !loadingCollections && (
-              <Box classname="w-full grid mb-10 grid-cols-1 gap-6 md:grid-cols-2 md:gap-8 md:gap-x-6 2xl:grid-cols-3">
+              <Box classname="w-full grid mb-10 grid-cols-1 gap-6  md:grid-cols-2 md:gap-8 md:gap-x-6 2xl:grid-cols-3">
                 {collections.map(collection => (
                   <Collection
                     key={collection.name}
