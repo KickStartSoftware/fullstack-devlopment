@@ -35,7 +35,7 @@ const Features = () => {
             <CloudSvg />
             <p className="font-bold text-[25px] text-white pt-4">Web Based</p>
             <p className="text-white text-[17px] pt-2 md:px-3">
-            Web-based platform, users can quickly access, select, and download their favourite software utility from any device with internet access.
+            Web-based platform, users can quickly access, select, and download their favourite software utility from any device with internet access.
             </p>
           </div>
           {/* Feature 2 */}
