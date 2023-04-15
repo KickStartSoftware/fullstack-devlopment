@@ -21,7 +21,7 @@ The prototype for the Kick Start Software project will be limited in scope, and 
 
 # Documentation
 ## Package link download
-https://gofile.io/d/sgBMnM
+[https://drive.google.com/file/d/1tNBzo0MhSuKNV97-QYMBY6_hbbAMuw3U/view?usp=share_link]
 
 ## Desktop app api app install yarn
 run 'npm i -g yarn'

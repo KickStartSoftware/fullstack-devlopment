@@ -1,5 +1,6 @@
 import React from 'react';
-import discord from '../../assets/discord.png';
+// import discord from '../../assets/discord.png';
+// import whatsapp from '../../assets/whatsapp.svg';
 import Image from 'next/image';
 import curvedline from '../../assets/bg2.png';
 import curvedline2 from '../../assets/bg10.png';
@@ -8,10 +9,10 @@ import useDownloads from '../../hooks/downloads';
 import useGetPackages, { categorizePackages } from '../../hooks/packages';
 
 // static
-import AppItem from "../general/AppItem";
-import photoshop from "../../assets/photoshop.png";
-import skype from "../../assets/skype.png";
-import youtube from "../../assets/youtube.png";
+// import AppItem from "../general/AppItem";
+// import photoshop from "../../assets/photoshop.png";
+// import skype from "../../assets/skype.png";
+// import youtube from "../../assets/youtube.png";
 // end
 
 const Apps = () => {
@@ -19,134 +20,134 @@ const Apps = () => {
   const categorized = categorizePackages(packages);
   const { postDownloads, isSelected, togglePackage } = useDownloads();
   // Static Data
-  const apps = [
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 1 },
-      app2: { name: "Photoshop", icon: photoshop, id: 2 },
-      app3: { name: "Skype", icon: skype, id: 3 },
-      app4: { name: "Youtube", icon: youtube, id: 4 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 5 },
-      app2: { name: "Photoshop", icon: photoshop, id: 6 },
-      app3: { name: "Skype", icon: skype, id: 7 },
-      app4: { name: "Youtube", icon: youtube, id: 8 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 9 },
-      app2: { name: "Photoshop", icon: photoshop, id: 10 },
-      app3: { name: "Skype", icon: skype, id: 11 },
-      app4: { name: "Youtube", icon: youtube, id: 12 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 13 },
-      app2: { name: "Photoshop", icon: photoshop, id: 14 },
-      app3: { name: "Skype", icon: skype, id: 15 },
-      app4: { name: "Youtube", icon: youtube, id: 16 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 17 },
-      app2: { name: "Photoshop", icon: photoshop, id: 18 },
-      app3: { name: "Skype", icon: skype, id: 19 },
-      app4: { name: "Youtube", icon: youtube, id: 20 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 21 },
-      app2: { name: "Photoshop", icon: photoshop, id: 22 },
-      app3: { name: "Skype", icon: skype, id: 23 },
-      app4: { name: "Youtube", icon: youtube, id: 24 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 25 },
-      app2: { name: "Photoshop", icon: photoshop, id: 26 },
-      app3: { name: "Skype", icon: skype, id: 27 },
-      app4: { name: "Youtube", icon: youtube, id: 28 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 29 },
-      app2: { name: "Photoshop", icon: photoshop, id: 30 },
-      app3: { name: "Skype", icon: skype, id: 31 },
-      app4: { name: "Youtube", icon: youtube, id: 32 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 33 },
-      app2: { name: "Photoshop", icon: photoshop, id: 34 },
-      app3: { name: "Skype", icon: skype, id: 35 },
-      app4: { name: "Youtube", icon: youtube, id: 36 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 37 },
-      app2: { name: "Photoshop", icon: photoshop, id: 38 },
-      app3: { name: "Skype", icon: skype, id: 39 },
-      app4: { name: "Youtube", icon: youtube, id: 40 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 41 },
-      app2: { name: "Photoshop", icon: photoshop, id: 42 },
-      app3: { name: "Skype", icon: skype, id: 43 },
-      app4: { name: "Youtube", icon: youtube, id: 44 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 45 },
-      app2: { name: "Photoshop", icon: photoshop, id: 46 },
-      app3: { name: "Skype", icon: skype, id: 47 },
-      app4: { name: "Youtube", icon: youtube, id: 48 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 49 },
-      app2: { name: "Photoshop", icon: photoshop, id: 50 },
-      app3: { name: "Skype", icon: skype, id: 51 },
-      app4: { name: "Youtube", icon: youtube, id: 52 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 53 },
-      app2: { name: "Photoshop", icon: photoshop, id: 54 },
-      app3: { name: "Skype", icon: skype, id: 55 },
-      app4: { name: "Youtube", icon: youtube, id: 56 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 57 },
-      app2: { name: "Photoshop", icon: photoshop, id: 58 },
-      app3: { name: "Skype", icon: skype, id: 59 },
-      app4: { name: "Youtube", icon: youtube, id: 60 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 61 },
-      app2: { name: "Photoshop", icon: photoshop, id: 62 },
-      app3: { name: "Skype", icon: skype, id: 63 },
-      app4: { name: "Youtube", icon: youtube, id: 64 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 65 },
-      app2: { name: "Photoshop", icon: photoshop, id: 66 },
-      app3: { name: "Skype", icon: skype, id: 67 },
-      app4: { name: "Youtube", icon: youtube, id: 68 },
-    },
-    {
-      category: "Web Browsers",
-      app1: { name: "Discord", icon: discord, id: 69 },
-      app2: { name: "Photoshop", icon: photoshop, id: 70 },
-      app3: { name: "Skype", icon: skype, id: 71 },
-      app4: { name: "Youtube", icon: youtube, id: 72 },
-    },
-  ]; 
+  // const apps = [
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 1 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 2 },
+  //     app3: { name: "Skype", icon: skype, id: 3 },
+  //     app4: { name: "Youtube", icon: youtube, id: 4 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 5 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 6 },
+  //     app3: { name: "Skype", icon: skype, id: 7 },
+  //     app4: { name: "Youtube", icon: youtube, id: 8 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 9 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 10 },
+  //     app3: { name: "Skype", icon: skype, id: 11 },
+  //     app4: { name: "Youtube", icon: youtube, id: 12 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 13 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 14 },
+  //     app3: { name: "Skype", icon: skype, id: 15 },
+  //     app4: { name: "Youtube", icon: youtube, id: 16 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 17 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 18 },
+  //     app3: { name: "Skype", icon: skype, id: 19 },
+  //     app4: { name: "Youtube", icon: youtube, id: 20 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 21 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 22 },
+  //     app3: { name: "Skype", icon: skype, id: 23 },
+  //     app4: { name: "Youtube", icon: youtube, id: 24 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 25 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 26 },
+  //     app3: { name: "Skype", icon: skype, id: 27 },
+  //     app4: { name: "Youtube", icon: youtube, id: 28 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 29 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 30 },
+  //     app3: { name: "Skype", icon: skype, id: 31 },
+  //     app4: { name: "Youtube", icon: youtube, id: 32 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 33 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 34 },
+  //     app3: { name: "Skype", icon: skype, id: 35 },
+  //     app4: { name: "Youtube", icon: youtube, id: 36 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 37 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 38 },
+  //     app3: { name: "Skype", icon: skype, id: 39 },
+  //     app4: { name: "Youtube", icon: youtube, id: 40 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 41 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 42 },
+  //     app3: { name: "Skype", icon: skype, id: 43 },
+  //     app4: { name: "Youtube", icon: youtube, id: 44 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 45 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 46 },
+  //     app3: { name: "Skype", icon: skype, id: 47 },
+  //     app4: { name: "Youtube", icon: youtube, id: 48 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 49 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 50 },
+  //     app3: { name: "Skype", icon: skype, id: 51 },
+  //     app4: { name: "Youtube", icon: youtube, id: 52 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 53 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 54 },
+  //     app3: { name: "Skype", icon: skype, id: 55 },
+  //     app4: { name: "Youtube", icon: youtube, id: 56 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 57 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 58 },
+  //     app3: { name: "Skype", icon: skype, id: 59 },
+  //     app4: { name: "Youtube", icon: youtube, id: 60 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 61 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 62 },
+  //     app3: { name: "Skype", icon: skype, id: 63 },
+  //     app4: { name: "Youtube", icon: youtube, id: 64 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 65 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 66 },
+  //     app3: { name: "Skype", icon: skype, id: 67 },
+  //     app4: { name: "Youtube", icon: youtube, id: 68 },
+  //   },
+  //   {
+  //     category: "Web Browsers",
+  //     app1: { name: "Discord", icon: discord, id: 69 },
+  //     app2: { name: "Photoshop", icon: photoshop, id: 70 },
+  //     app3: { name: "Skype", icon: skype, id: 71 },
+  //     app4: { name: "whatsapp", icon: whatsapp, id: 72 },
+  //   },
+  // ]; 
   // End
   return (
     <div className="">
@@ -177,12 +178,12 @@ const Apps = () => {
         </div> */}
         {/* End */}
         {/* Display the Apps */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5  xl:grid-cols-6  py-12 gap-6 max-w-[90vw] mx-auto">
+        <div className="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4  xl:grid-cols-5  2xl:grid-cols-6  py-12 gap-6 max-w-[90vw] mx-auto">
           {Object.keys(categorized).map(category => (
-            <Box key={category}>
-              <Typography variant="h5" text={category} gutterBottom="md" />
+            <Box key={category} classname='bg-[#040D18] rounded-2xl px-10 py-4 shadow'>
+              <Typography variant="h5" text={category} gutterBottom="md" classname='border-b-2 border-[#0ff6f6] pb-4 w-[170px] text-[#0ff6f6]' />
               {categorized[category].map((p: any) => (
-                <Box key={p._id} classname="flex items-center gap-x-4 mb-1">
+                <Box key={p._id} classname="flex items-center gap-x-4 mb-2">
                   <input
                     type="checkbox"
                     checked={isSelected(p)}

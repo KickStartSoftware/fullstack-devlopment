@@ -25,8 +25,7 @@ const Footer = () => {
             LOGO
           </p> */}
           <p className="text-center sm:text-start px-12 sm:pr-6 pt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-            fugit mollitia? Et quis iste ipsum!
+          This is a prototype platform with demo data designed to showcase best practices in full stack development!
           </p>
         </div>
         <div className=" sm:flex mx-auto justify-center gap-20 w-full ">
@@ -35,37 +34,38 @@ const Footer = () => {
             <p className="text-[24px] font-bold whitespace-nowrap">
               Quick Links
             </p>
-            <ul className="space-y-2">
+            <ul className="space-y-2 cursor-pointer">
               <li className="pt-4">
-                <p>Home</p>
+               <a href="/"><p>Home</p></a>
               </li>
               <li>
-                <p>Analytics</p>
+                <a href="/analytics"><p>Analytics</p></a>
               </li>
               <li>
-                <p>Personal Vault</p>
+                <a href="/vault"><p>Personal Vault</p></a>
               </li>
               <li>
-                <p>About Us</p>
+                <a href="/about"><p>About Us</p></a>
               </li>
             </ul>
           </div>
           {/*Useful Links*/}
           <div className=" pt-8 whitespace-nowrap  sm:text-start">
             <p className="text-[24px] font-bold">Useful Links</p>
-            <ul className="space-y-2">
+            <ul className="space-y-2 cursor-pointer">
               <li className="pt-4">
-                <p>Sign up</p>
+                <a href="auth/sign-up"><p>Sign up</p></a>
               </li>
               <li>
-                <p>Account Login</p>
+                <a href="auth/sign-in"><p>Account Login</p></a>
               </li>
               <li>
-                <p>Feedback</p>
+                <a href="/terms_and_conditions"><p>Terms & Conditons</p></a>
               </li>
               <li>
-                <p>Terms</p>
+                <a href="/privacy_policy"><p>Privacy & Policy</p></a>
               </li>
+             
             </ul>
           </div>
         </div>

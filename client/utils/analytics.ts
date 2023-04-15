@@ -46,25 +46,21 @@ export const mostDownloadedPackages = (
   return reports.length > 15 ? reports.slice(0, 16) : reports;
 };
 
-export const softwareDistribution = (
-  packages: IPackage[]
-): IPackageCategory[] => {
+export const softwareDistribution = (packages: IPackage[]): IPackageCategory[] => {
   if (packages.length === 0) return [];
+
+  const distribution = new Map<string, number>();
   const totalPackages = packages.length;
 
-  const distribution = packages.reduce((acc, pkg) => {
-    const key = pkg.category.name;
-    const total = acc[key] || 0;
-    return { ...acc, [key]: total + 1 };
-  }, {} as any);
+  packages.forEach((pkg) => {
+    const key = pkg?.category?.name;
+    distribution.set(key, (distribution.get(key) || 0) + 1);
+  });
 
-  return Object.keys(distribution)
-    .sort((a, b) => distribution[b] - distribution[a])
-    .map(key => {
-      const value = (distribution[key] / totalPackages) * 100;
-      return {
-        label: key,
-        value: parseInt(String(value)),
-      };
-    });
+  return Array.from(distribution.entries())
+    .sort(([, countA], [, countB]) => countB - countA)
+    .map(([key, count]) => ({
+      label: key,
+      value: Math.floor((count / totalPackages) * 100),
+    }));
 };
