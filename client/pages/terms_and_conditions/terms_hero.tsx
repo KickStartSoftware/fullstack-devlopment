@@ -14,14 +14,7 @@ const TermsHero = () => {
             Terms Of<span className="text-[#0ff6f6]"> Use</span>
           </h1>
           <p className="text-white text-[20px] max-w-[50rem]   mx-auto text-justify items-start pt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-            adipisci quis dignissimos iste possimus corporis, reiciendis dicta
-            pariatur impedit non? Itaque, voluptatum. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Tenetur, adipisci quis dignissimos
-            iste possimus corporis, reiciendis dicta pariatur impedit non?
-            Itaque, voluptatum. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Tenetur, adipisci quis dignissimos iste possimus
-            corporis, reiciendis dicta pariatur impedit non? Itaque, voluptatum.
+          Welcome to KickStartSoftware, your trusted source for innovative software solutions. By using our services, you agree to comply with our Terms of Use and Privacy Policy, ensuring a seamless experience. Explore our diverse range of products and services, designed to cater to your unique needs. Don't hesitate to contact our support team for any queries or assistance. Discover the world of KickStartSoftware and unlock the potential of cutting-edge technology for your personal and professional growth. Join us on this exciting journey today!
           </p>
         </div>
         {/* Right Side */}
