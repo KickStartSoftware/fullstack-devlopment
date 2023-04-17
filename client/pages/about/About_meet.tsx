@@ -18,7 +18,7 @@ const About_meet = () => {
           MEET THE TEAM
         </p>
         <p className="text-white text-[20px] max-w-[50rem]   mx-auto text-center items-center pt-1">
-          Lorem ipsum dolor sit amet consectetur adipisicing
+        Members involvement within the project.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 pt-6 md:pt-12 container mx-auto place-items-center w-full">
           {/* Card 1 */}
@@ -34,11 +34,10 @@ const About_meet = () => {
             {/* Description */}
             <div className="">
               <p className="text-white font-bold text-[24px] text-center pt-3">
-                Lorem Ipsum
+                Taylor Head
               </p>
               <p className="text-center pt-4 px-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing
-                elit.Corporis, alias! Lorem ipsum dolor sit amet consectetur
+              Project owner not only developed the entire project but also played a key role within the scope.
               </p>
             </div>
           </div>
@@ -55,11 +54,10 @@ const About_meet = () => {
             {/* Description */}
             <div className="">
               <p className="text-white font-bold text-[24px] text-center pt-3">
-                Lorem Ipsum
+                Supervisor
               </p>
               <p className="text-center pt-4 px-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing
-                elit.Corporis, alias! Lorem ipsum dolor sit amet consectetur
+              To provide guidance and advice, it is recommended to hold regular meetings to ensure the project is progressing smoothly.
               </p>
             </div>
           </div>
@@ -76,11 +74,10 @@ const About_meet = () => {
             {/* Description */}
             <div className="">
               <p className="text-white font-bold text-[24px] text-center pt-3">
-                Lorem Ipsum
+                Second Marker
               </p>
               <p className="text-center pt-4 px-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing
-                elit.Corporis, alias! Lorem ipsum dolor sit amet consectetur
+              Verify the work and compare it to the grade given by the supervisor, and also provide feedback.
               </p>
             </div>
           </div>
