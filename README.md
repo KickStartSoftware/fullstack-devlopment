@@ -14,13 +14,13 @@ The Kick Start Software project aims to solve this problem by providing users wi
 # Key Features
 * Single website for downloading multiple software programs
 * Personal vault for saving frequently used software
-* Community analytics section for data on popular software
+* analytics section for data on popular software
 
 # Prototype:
 The prototype for the Kick Start Software project will be limited in scope, and may only include demo data. However, this should not be considered a limitation, as the prototype will provide a valuable proof of concept for the project.
 
 # Documentation
-## Package link download
+## Package link download "ensure you put this repository of applications within /public folder before running the app"
 [https://drive.google.com/file/d/1tNBzo0MhSuKNV97-QYMBY6_hbbAMuw3U/view?usp=share_link]
 
 ## Desktop app api app install yarn
@@ -50,4 +50,4 @@ run 'yarn start-app-prod'
 
 
 # Conclusion
-The Kick Start Software project is a valuable solution to the problem of downloading multiple software programs and utilities. The project's technology stack, personal vault, and community analytics features will improve user experience and provide valuable data on the most popular software among users. The prototype will provide a proof of concept for the project, and its success will pave the way for further development.
+The Kick Start Software project is a valuable solution to the problem of downloading multiple software programs and utilities. The project's technology stack, personal vault, and analytics features will improve user experience and provide valuable data on the most popular software among users. The prototype will provide a proof of concept for the project, and its success will pave the way for further development.
