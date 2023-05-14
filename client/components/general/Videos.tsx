@@ -13,8 +13,8 @@ const Videos = () => {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/WG5ikvJ2TKA"
-              title="Frontend web development - a complete overview"
+              src="https://www.youtube.com/embed/2cIcybpEUOw"
+              title="Website Overview"
               frameBorder={0}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
@@ -23,11 +23,10 @@ const Videos = () => {
           {/* Description */}
           <div className="">
             <p className="text-white font-bold text-[24px] text-center pt-3">
-              Lorem Ipsum
+              Website Overview
             </p>
             <p className="text-center pt-4 px-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.Corporis,
-              alias! Lorem ipsum dolor sit amet consectetur
+            Presenting an overview of our website to guide users effortlessly through its features.
             </p>
           </div>
         </div>
@@ -38,8 +37,8 @@ const Videos = () => {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/WG5ikvJ2TKA"
-              title="Frontend web development - a complete overview"
+              src="https://www.youtube.com/embed/7wrt6KBuwik"
+              title="Deployment"
               frameBorder={0}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
@@ -48,11 +47,10 @@ const Videos = () => {
           {/* Description */}
           <div className="">
             <p className="text-white font-bold text-[24px] text-center pt-3">
-              Lorem Ipsum
+              Deployment
             </p>
             <p className="text-center pt-4 px-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.Corporis,
-              alias! Lorem ipsum dolor sit amet consectetur
+            This video demonstrates how the application is deployed and divided into two sections.
             </p>
           </div>
         </div>
@@ -63,8 +61,8 @@ const Videos = () => {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/WG5ikvJ2TKA"
-              title="Frontend web development - a complete overview"
+              src="https://www.youtube.com/embed/jRSPhvxV67o"
+              title="How to use the website"
               frameBorder={0}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
@@ -73,11 +71,10 @@ const Videos = () => {
           {/* Description */}
           <div className="">
             <p className="text-white font-bold text-[24px] text-center pt-3">
-              Lorem Ipsum
+              How to use the website
             </p>
             <p className="text-center pt-4 px-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.Corporis,
-              alias! Lorem ipsum dolor sit amet consectetur
+            This video provides a guide on how to use the login and personal vaults.
             </p>
           </div>
         </div>
@@ -88,8 +85,8 @@ const Videos = () => {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/WG5ikvJ2TKA"
-              title="Frontend web development - a complete overview"
+              src="https://www.youtube.com/embed/5KMqUDHM8zg"
+              title="Technical Overview"
               frameBorder={0}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
@@ -98,11 +95,10 @@ const Videos = () => {
           {/* Description */}
           <div className="">
             <p className="text-white font-bold text-[24px] text-center pt-3">
-              Lorem Ipsum
+            Technical Overview
             </p>
             <p className="text-center pt-4 px-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.Corporis,
-              alias! Lorem ipsum dolor sit amet consectetur
+            Showcasing a technical overview of both the backend and frontend.
             </p>
           </div>
         </div>

@@ -17,14 +17,7 @@ const Privacyhero = () => {
             Privacy<span className="text-[#0ff6f6]"> & Policy</span>
           </h1>
           <p className="text-white text-[20px] max-w-[50rem]   mx-auto text-justify items-start pt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-            adipisci quis dignissimos iste possimus corporis, reiciendis dicta
-            pariatur impedit non? Itaque, voluptatum. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Tenetur, adipisci quis dignissimos
-            iste possimus corporis, reiciendis dicta pariatur impedit non?
-            Itaque, voluptatum. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Tenetur, adipisci quis dignissimos iste possimus
-            corporis, reiciendis dicta pariatur impedit non? Itaque, voluptatum.
+          At KickStartSoftware, we value your privacy and are committed to protecting your personal information. Our Privacy Policy outlines the types of information we collect, how we use it, and the measures we take to safeguard your data. We only collect information necessary to provide and improve our services, and we never sell or share your data with third parties without your explicit consent. We utilize industry-standard security measures to ensure the protection of your data from unauthorized access or disclosure. By using our services, you acknowledge and agree to our Privacy Policy, empowering you to make informed decisions about sharing your information with us. For any questions or concerns, please contact our dedicated support team.
           </p>
         </div>
         {/* Right Side */}

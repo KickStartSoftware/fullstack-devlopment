@@ -6,45 +6,45 @@ import Image from 'next/image';
 const Faq = () => {
   const [faq, setFaq] = useState([
     {
-      question: 'Amen lol dolor sit amet?  ',
+      question: 'What information do you collect?  ',
       answer:
-        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis ad laborum perferendis!',
+        'We collect personal information such as your name, email address, and payment details when you create an account or make a purchase. We also collect non-personal data, such as usage statistics and device information, to improve our services.',
       open: false,
     },
     {
-      question: 'Rtrem ipsum dolor sit amet?  ',
+      question: 'How do you use my information?  ',
       answer:
-        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis ad laborum perferendis!',
+        'We use your personal information to provide and improve our services, process payments, and communicate with you. We may also use non-personal data for research and analysis to enhance our products and services.',
       open: false,
     },
     {
-      question: 'Orem ipsusm dolor sit adsamet!  ',
+      question: 'Do you share my information with third parties?  ',
       answer:
-        'OpLorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis ad laborum perferendis!',
+        'We do not sell or share your personal information with third parties without your explicit consent, except when required by law or to protect our rights. We may share non-personal data with trusted partners for research and analysis purposes',
       open: false,
     },
     {
-      question: 'Lorem dsipsum dolor sit amdsaet?  ',
+      question: 'How do you protect my information?  ',
       answer:
-        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis ad laborum perferendis!',
+        'We employ industry-standard security measures, such as encryption and secure servers, to protect your information from unauthorized access or disclosure. We also regularly review and update our security practices to ensure the safety of your data.',
       open: false,
     },
     {
-      question: 'Wdsaorem ipsum dolor sit amet?  ',
+      question: 'Can I update or delete my personal information?  ',
       answer:
-        'Lordsaem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis ad labordsaum perferendis!',
+        'Yes, you can update or delete your personal information by accessing your account settings. If you need assistance, please contact our support team.',
       open: false,
     },
     {
-      question: 'Wdsaorem ipsum dolor sit amet?  ',
+      question: 'Do you use cookies?  ',
       answer:
-        'Lordsaem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis ad labordsaum perferendis!',
+        'Yes, we use cookies to enhance your experience on our website, analyze site usage, and support our marketing efforts. You can manage your cookie preferences in your browser settings.',
       open: false,
     },
     {
-      question: 'Wdsaorem ipsum dolor sit amet?  ',
+      question: 'How can I contact you regarding my privacy concerns?  ',
       answer:
-        'Lordsaem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis ad labordsaum perferendis!',
+        'If you have any questions or concerns about our Privacy Policy or your data, please contact us using the contact form on our website or by emailing our support team.',
       open: false,
     },
    

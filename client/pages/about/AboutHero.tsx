@@ -13,14 +13,7 @@ const AboutHero = () => {
             About<span className="text-[#0ff6f6]"> KickStartSoftware</span>
           </h1>
           <p className="text-white text-[20px] max-w-[50rem]   mx-auto text-justify items-start pt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-            adipisci quis dignissimos iste possimus corporis, reiciendis dicta
-            pariatur impedit non? Itaque, voluptatum. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Tenetur, adipisci quis dignissimos
-            iste possimus corporis, reiciendis dicta pariatur impedit non?
-            Itaque, voluptatum. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Tenetur, adipisci quis dignissimos iste possimus
-            corporis, reiciendis dicta pariatur impedit non? Itaque, voluptatum.
+          The Kick Start Software project aims to solve this problem by providing users with a single website where they can download multiple software programs with just a few clicks. The website will also feature a personal vault where users can save their frequently used software for easy access, as well as a community analytics section that will provide valuable data on the most popular software among users.
           </p>
         </div>
         {/* Right Side */}
